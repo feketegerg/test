@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 90px 40px;
+}
+
+
+/* ---- Upper header ---- */
+
+#upper-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Header's left side elements */
+
+#header-left-side {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#left-logo {
+    height: 100%;
+    width: auto;
+}
+
+#left-logo img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+
+/*Header's right side elements */
+
+#header-right-side {
+    height: 100%;
+    width: 30%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+
+/* Informations & account manage */
+
+#right-side-container {
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+#header-information {
+    height: 100%;
+    display: inline-block;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+#header-information div {
+    float: right;
+    margin-right: 5%;
+}
+
+#header-information div a {
+    display: block;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67019f;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+/* Login or Logout */
+
+#account-panel {
+    height: 100%;
+    display: inline-block;
+}
+
+#account-panel div {
+    height: 100%;
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 2px;
+}
+
+#account-panel div a {
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67019f;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+#account-panel div button {
+    border: none;
+    background-color: white;
+    color: #67019f;
+    display: inline-block;
+    line-height: 27px;
+    text-align: left;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#account-panel div button i {
+    position: relative;
+    top: 7px;
+}
+
+
+/* Right side logo */
+
+#right-logo {
+    height: 100%;
+    width: 30%;
+}
+
+#right-logo img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+
+/* ---- Lower header ---- */
+
+#lower-header {
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+#header-nav {
+    height: 100%;
+    width: 65%;
+    border-right: 1px solid gray;
+    margin-left: 10%;
+}
+
+
+/* Links to other pages */
+
+#header-nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: inline-block;
+}
+
+#header-nav ul li {
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#icon {
+    display: inline-block;
+    line-height: 40px;
+}
+
+#icon i {
+    position: relative;
+    top: 5px;
+}
+
+#header-nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67019f;
+    font-weight: bold;
+    text-decoration: none;
+}
